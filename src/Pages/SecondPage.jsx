@@ -6,30 +6,6 @@ import imagetwo from "./../assests/image2.png";
 import imagethree from "./../assests/image3.png";
 import logo from "./../assests/KenmoreLogoDark.png";
 
-function SecondPage() {
-  async function checkTrue() {
-    if (await verify()) {
-      window.location.assign(
-        "https://kenmoreone.wastedtreasures.com/Air-Purifie-Card-3"
-      );
-    }
-  }
-
-  async function verify() {
-    const conf = {
-      code: "Z1698930066905353",
-      id: "e8c9e0e6-3220-488b-8d34-5dee71b59dc1",
-    };
-    const response = await tga.GatedVerifier.verify(conf);
-    if (response.status) {
-      // response.data.verified true means user has required NFT.
-      return response.data.verified;
-    } else {
-      console.error(response.data.errorMessage);
-      return false;
-    }
-  }
-
   return (
     <div className="containerpagetwo">
       <div className="contanerinpage3">
@@ -57,7 +33,6 @@ function SecondPage() {
         <div
           className="accesss11"
           onClick={() => {
-            checkTrue();
           }}
         >
           Identify my Air Purifier
