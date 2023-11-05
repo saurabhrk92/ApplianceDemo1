@@ -8,7 +8,7 @@ import { AiOutlineGoogle } from "react-icons/ai";
 function FirstPage() {
   return (
     <div className="container">
-      <div className="title1">Claim Your Air Purifier Warranty Card</div>
+      <div className="title1">Claim Your Air Purifier Card</div>
 
       <div>
         <img src={image} alt="image" />
