@@ -20,7 +20,7 @@ function SecondPage() {
       code: "Z1698930066905353",
       id: "e8c9e0e6-3220-488b-8d34-5dee71b59dc1",
     };
-    const response = await tga.GatedVerifier.verify(conf);
+    const response = await GatedVerifier.verify(conf);
     if (response.status) {
       // response.data.verified true means user has required NFT.
       return response.data.verified;
