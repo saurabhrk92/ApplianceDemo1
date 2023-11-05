@@ -11,7 +11,7 @@ function SecondPage() {
    async function checkTrue() {
     if (await verify()) {
       window.location.assign(
-        "https://kenmoreone.wastedtreasures.com/Air-Purifie-Card-3"
+        "https://appliance-demo1-pegjdiesz-saurabhrk92s-projects.vercel.app/PP-3"
       );
     }
   }
