@@ -14,9 +14,9 @@ function App() {
       <Line />
       <Navbar />
       <Routes>
-        <Route path="/Air-Purifie-Card-1" element={<FirstPage />} />
-        <Route path="/" element={<SecondPage />} />
-        <Route path="/Air-Purifie-Card-3" element={<ThirdPage />} />
+        <Route path="/PP-1" element={<FirstPage />} />
+        <Route path="/PP-2" element={<SecondPage />} />
+        <Route path="/PP-3" element={<ThirdPage />} />
         <Route
           path="/test.html"
           render={() => <iframe src="/test.html" title="Test Page" />}
