@@ -6,7 +6,6 @@ import imagetwo from "./../assests/image2.png";
 import imagethree from "./../assests/image3.png";
 import logo from "./../assests/KenmoreLogoDark.png";
 import * as tga from "./../assests/TGA/tga-verifier.js";
-import * as tgaURL from "https://engagetest.zblocks.io/token-gated/tga-verifier.js"
 
 function SecondPage() {
    async function checkTrue() {
